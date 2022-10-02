@@ -1,3 +1,4 @@
+/*Link Fontes*/
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Calistoga&family=Roboto:wght@300;400&display=swap");
 
@@ -86,21 +87,6 @@ body {
   border-radius: 50px;
 }
 
-div.email {
-  text-decoration: none;
-  text-align: center;
-  border: 2px solid black;
-  width: 100%;
-  padding: 15px;
-  font-family: "Calistoga", cursive;
-  border-radius: 50px;
-}
-
-div.email:hover {
-  background-color: var(--bgcolor);
-  cursor: text;
-}
-
 .site {
   background-color: var(--bglinks);
 }
@@ -129,6 +115,20 @@ div.email:hover {
 .instagram:hover {
   background-color: var(--bghoverinsta);
 }
+div.email {
+  text-decoration: none;
+  text-align: center;
+  border: 2px solid black;
+  width: 100%;
+  padding: 15px;
+  font-family: "Calistoga", cursive;
+  border-radius: 50px;
+}
+
+div.email:hover {
+  background-color: var(--bgcolor);
+  cursor: text;
+}
 .email {
   background-color: var(--bglinks);
 }
@@ -141,6 +141,8 @@ div.email:hover {
   padding: 2px;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/*Media Query*/
 
 @media (max-width: 650px) {
   .email {
